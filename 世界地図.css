@@ -1,0 +1,97 @@
+.header{
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 0 20px #dddddd;
+    background-color: #008000;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.header-left {
+    float: left;
+    display: flex;
+}
+.header-right{
+    display: flex;
+    width:530px;
+    height: 80px;
+    float: right;
+    margin-top: 20px;
+}
+.header-right a {
+    line-height: 56px;
+    font-family: 'Noto Serif JP', sans-serif;
+    color: #ffffff;
+    font-size: 35px;
+    /* margin-right:100px ; */
+    margin-left: 50px; 
+    
+}
+.clear{
+    clear: both;
+}
+.header-left{
+    height: 0px;
+    margin-top: 8px;
+
+}
+.header-logo{
+    width: 80px;
+    height: 60px;
+}
+.title{
+    color: #ffffff;
+    margin-top: 0px;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 45px;
+}
+.main-visual {
+    margin-top: 80px;
+    padding-top: 140px;
+    padding-bottom: 600px;
+    background-image: url("画像/世界地図.png");
+    background-size: cover;
+}
+.top-title{
+    margin-left: auto;margin-right: auto;margin-top: auto;margin-bottom: auto;
+    width: 450px;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 70px;
+}
+.アジア{
+    width: 100%;
+    height: 100pc;
+   display: flex; /* 横並びにできる */
+    /* flex-flow:column; 縦並びにできる*/
+}
+.アジア文{
+    width: 55%;
+    height: 55%;
+}
+.アジア州地図{
+    width:100%;
+    height:100%;
+     float: right; 
+}
+.アジア画像{
+    float: right;
+    height:90%;
+    width: 45%;
+   
+}
+.表 {
+    height:100%;
+    width: 100%;
+}
+.世界1位{
+    font-size: large;
+    color :red
+    
+}
+.輸出{font-size: large;
+    color :blue
+}
+.輸入{
+    font-size: large;
+    color :rgb(255, 0, 0)
+}

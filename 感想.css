@@ -1,0 +1,17 @@
+.背景{
+    margin-top: 140px;
+    background-color: #7fffd4;
+    height:300px;
+    width: 850px;
+    text-align: center;
+    border-radius:30%
+}
+.感想{
+    font-size:30px;
+}
+.文{
+    padding:20px;
+}
+h1{
+    color: #e51313;
+}
